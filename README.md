@@ -2,7 +2,7 @@
 
 一个功能强大的 Windows API 测试工具，专为测试 API 接口的稳定性和一致性而设计。支持批量请求、响应对比、差异分析等功能。
 
-<img width="1842" height="1007" alt="" src="https://github.com/user-attachments/assets/7170a4ff-e081-4b07-b167-2f025871f620" />
+<img width="1842" height="1007" alt="" src="https://github.com/yileicn/AI-API-Test-Tool/blob/main/images/UI.png" />
 
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet)
