@@ -9,9 +9,9 @@ namespace APITestTool
     /// <summary>
     /// AI Playground 窗体
     /// </summary>
-    public partial class PromptTestForm : Form
+    public partial class AIPlaygroundForm : Form
     {
-        // 所有控件声明都在 PromptTestForm.Designer.cs 中
+        // 所有控件声明都在 AIPlaygroundForm.Designer.cs 中
 
         #region 字段
 
@@ -44,7 +44,7 @@ namespace APITestTool
 
         #endregion
 
-        public PromptTestForm()
+        public AIPlaygroundForm()
         {
             // 设置文件路径
             var appDataPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "APITestTool");
@@ -123,7 +123,7 @@ namespace APITestTool
             cboModel.SelectedIndex = 0;
         }
 
-        // 所有控件定义都在 PromptTestForm.Designer.cs 中
+        // 所有控件定义都在 AIPlaygroundForm.Designer.cs 中
 
         private void AppendMessage(string role, string content, Color roleColor)
         {

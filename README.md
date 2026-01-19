@@ -183,8 +183,8 @@ AI-API-Test-Tool/
 ├── MainForm.cs                  # 主导航页面
 ├── ApiTestForm.cs               # API Stability Test 窗体
 ├── ApiTestForm.Designer.cs      # API 测试窗体设计器代码
-├── PromptTestForm.cs            # AI Playground 窗体
-├── PromptTestForm.Designer.cs   # AI Playground 窗体设计器代码
+├── AIPlaygroundForm.cs            # AI Playground 窗体
+├── AIPlaygroundForm.Designer.cs   # AI Playground 窗体设计器代码
 ├── OpenAIChatService.cs         # OpenAI 聊天服务封装
 ├── FunctionsToolsForm.cs        # Functions 管理窗体
 ├── OpenAISettingsDialog.cs     # OpenAI 设置对话框

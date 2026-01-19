@@ -60,8 +60,8 @@ namespace APITestTool
 
         private void BtnPromptTest_Click(object? sender, EventArgs e)
         {
-            var promptTestForm = new PromptTestForm();
-            promptTestForm.Show();
+            var aiPlaygroundForm = new AIPlaygroundForm();
+            aiPlaygroundForm.Show();
         }
     }
 }

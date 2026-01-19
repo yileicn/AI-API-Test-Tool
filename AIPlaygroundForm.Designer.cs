@@ -1,13 +1,13 @@
 namespace APITestTool
 {
-    partial class PromptTestForm
+    partial class AIPlaygroundForm
     {
         /// <summary>
         ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null!;
 
-        // Dispose 方法在 PromptTestForm.cs 中定义以处理额外资源
+        // Dispose 方法在 AIPlaygroundForm.cs 中定义以处理额外资源
 
         #region Windows Form Designer generated code
 
@@ -637,7 +637,7 @@ namespace APITestTool
             lblConversationTitle.TabIndex = 0;
             lblConversationTitle.Text = "💬 对话测试";
             // 
-            // PromptTestForm
+            // AIPlaygroundForm
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -645,7 +645,7 @@ namespace APITestTool
             ClientSize = new Size(1600, 1000);
             Controls.Add(splitContainerMain);
             MinimumSize = new Size(1400, 800);
-            Name = "PromptTestForm";
+            Name = "AIPlaygroundForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "🤖 AI Playground";
             splitContainerMain.Panel1.ResumeLayout(false);
